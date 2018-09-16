@@ -114,21 +114,6 @@
 <script type="text/javascript">
 
 	$(document).ready(function(){
-		// window.onscroll = function() {myFunction()};
-		// function myFunction() {
-		//     if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-		//     	// $('html, body').animate({
-		// 	    //     scrollTop: $("#s3").offset().top
-		// 	    // }, 1000);
-		// 	    console.log("a");
-		//     } else {
-		//         console.log("b");
-		//     }
-		// }
-
-	    // $('html, body').animate({
-	    //     scrollTop: $("#s3").offset().top
-	    // }, 1000);
 		
 	    var anime1 = 0, anime2 = 0;
 	    $(window).scroll(function() {
