@@ -1,0 +1,60 @@
+
+@media screen and (max-width: 768px){
+	#contentAcc1{
+		height: 900px;
+		margin-top: 0px;
+	}
+	#Acc1{
+		width: 92%;
+		margin-left: 4%;
+		margin-right: 4%;
+		margin-top: 5%;
+	}
+	.AccHidden{
+		display: none;
+	}
+	#Per1, #Per2{
+		padding-left: 0px;
+	}
+	#popup{
+		margin-left: -37.5%;
+		width: 75%;
+	}
+
+}
+
+
+
+@media screen and (max-width: 480px){
+	#contentAcc1{
+		height: 800px;
+	}
+	#Per11{
+		display: none;
+	}
+	#Per12{
+		display: inline;
+	}
+
+	#Per22{
+		display: none;
+	}
+	#Per23{
+		display: inline;
+	}
+	.Per{
+		display: none;
+	}
+	.PerX{
+		width: 16px;
+		height: 16px;
+		float: left;
+		margin-right: 10px;
+		margin-left: 6px;
+		display: inline;
+	}
+	#popup{
+		margin-left: -40%;
+		width: 80%;
+	}
+}

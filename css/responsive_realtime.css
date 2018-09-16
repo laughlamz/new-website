@@ -1,0 +1,52 @@
+
+@media screen and (max-width: 768px){
+	#content1{
+		height: 360px;
+		margin-top: 0px;
+	}
+	#col11{
+		width: 92%;
+		margin-left: 4%;
+		margin-right: 4%;
+		margin-top: 5%;		
+	}
+
+	#content2{
+		height: 360px;
+		margin-top: 0px;
+	}
+	#col21, #col22{
+		width: 92%;
+		margin-left: 4%;
+		margin-right: 4%;
+		margin-top: 5%;
+	}
+	#content3{
+		height: 360px;
+	    margin-top: 0px;
+	}
+	#col31{
+		width: 92%;
+		margin-left: 4%;
+		margin-right: 4%;
+		margin-top: 5%;	
+	}
+
+
+	#myChart21, #myChart22{
+		width: 100%;
+		height: 220px;
+	}
+	#myChart1{
+		width: 100%;
+		height: 290px;
+	}
+
+	.infoSen12, .infoSen22{
+		width: 25%;
+		font-size: 12px;
+	}
+	.infoSen13, .infoSen23{
+		font-size: 20px;
+	}
+}

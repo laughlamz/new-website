@@ -1,0 +1,50 @@
+
+@media screen and (max-width: 768px){
+	#content1{
+		margin-top: 0px;
+	}
+	.col4{
+		width: 92%;
+		margin-right: 4%;
+		margin-left: 4%;
+		margin-top: 5%;
+	}
+	#col41{
+		margin-left: 4%;
+	}
+	#col44{
+		margin-right: 4%;
+	}
+	
+	#content2{
+		margin-top: 0px;
+	}
+	.col3{
+		width: 92%;
+		margin-right: 4%;
+		margin-left: 4%;
+		margin-top: 5%;	
+	}
+	#col31{
+		margin-left: 4%;
+	}
+	#col33{
+		margin-right: 4%;
+	}
+
+	#content3{
+		margin-top: 0px;
+	}
+	#col21{
+		width: 92%;
+		margin-right: 4%;
+		margin-left: 4%;
+		margin-top: 5%;	
+	}
+	#col22{
+		width: 92%;
+		margin-right: 4%;
+		margin-left: 4%;
+		margin-top: 5%;	
+	}
+}

@@ -1,0 +1,119 @@
+#layUpSQL{
+	width: 97.26%;
+	margin-top: 1.37%;
+	margin-left: 1.37%;
+	margin-right: 1.37%;
+	background-color: rgb(50, 60, 72);
+}
+#layNameSQL{
+	width: 100%;
+	padding-top: 20px;
+	padding-left: 25px;
+	font-family: 'PT Sans Caption', sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	color: white;
+}
+#layTimeSQL{
+	width: 100%;
+	margin-top: 20px;
+}
+
+#formTime2Time{
+	font-family: "PT Sans Caption", sans-serif;
+}
+.form-time, .form-time1{
+	width: 100%;
+	padding-top: 10px;
+}
+.filtName, .filtName1{
+	width: 15%;
+	height: 38px;
+	font-weight: 700;
+	text-align: right;
+	padding: 10px;
+	margin-right: 25px;
+	color: silver;
+	display: inline-block;
+}
+.filtInput, .filtInput1{
+	width: 80%;
+	height: 38px;
+	background-color: #2a323c;
+	color: white;
+	border: 0.3px solid gray;
+	border-radius: 3px;
+	padding: 10px;
+	display: inline-block;
+}
+
+.form-sub{
+	width: 100%;
+	margin-top: 20px;
+	padding-bottom: 20px;
+	vertical-align: middle;
+}
+#filtBtnShow{
+	width: 15%;
+	padding: 10px;
+	margin-right: 25px;
+	display: inline-block;
+}
+#btnShow, #btnShow1{
+	height: 38px;
+	text-decoration: none;
+	padding: 10px 30px 10px 30px;
+	border-radius: 5px;
+	color: white;
+	background-image: linear-gradient(90deg, rgb(28, 132, 166), rgb(60, 179, 113));
+	display: inline-block;
+}
+#btnShow:active, #btnShow1:active{
+	color: silver;
+}
+#btnShow:hover, #btnShow1:hover{
+	background-image: linear-gradient(90deg, rgb(28, 132, 166), rgb(60, 150, 103));
+}
+
+
+#layDataSQL, #layDataSQL1{
+	width: 100%;
+}
+#responeSQL, #responeSQL1{
+	width: 100%;
+}
+
+
+
+
+
+#loadingSQL, #loadingSQL1{
+	color: gray;
+	width: 100%;
+	text-align: center;
+	display: none;
+	font-size: 16px;
+	padding-bottom: 10px;
+}
+.fa-spinner{
+	font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Select{
+	padding-left: 5px;
+	border-radius: 3px;
+	height: 25px;
+}

@@ -1,0 +1,113 @@
+
+#nameSQL{
+	width: 100%;
+	height: 5%;
+	color: white;
+	font-size: 18px;
+	font-family: 'PT Sans Caption', sans-serif;
+	font-weight: 700;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+
+#tableSQL{
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 20px;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+#tbSQL{
+	width: 100%;
+	color: white;
+	font-size: 15px;
+	text-align: left;
+}
+
+#tbSQL_row1{
+	border-bottom: 0.2px solid #4d5d65;
+}
+.tbSQL_row1{
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+#tbSQL_row2{
+	border-bottom: 0.1px solid #4d5d65;
+}
+.tbSQL_row2{
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: rgb(159, 162, 167);
+}
+#tbSQL_row2:hover{
+	background-color: #3e4855;
+}
+
+#tbSQL tr:last-of-type{
+	border: 0px;
+}
+
+
+#pageSQL ul{
+	width: 100%;
+	height: 25px;
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+#pageSQL{
+	width: 100%;
+	height: 70px;
+	/*padding-left: 41%;*/
+	margin-top: 10px;
+	padding-top: 10px;
+	vertical-align: middle;
+}
+#pageSQL ul li{
+	display: inline-block;
+	cursor: pointer;
+	padding-left: 8px;
+	padding-right: 8px;
+	color: gray;
+	font-size: 14px;
+	background-color: rgb(50,60,72);
+}
+#pageSQL ul li.actived{
+	color: lightblue;
+}
+#pageSQL ul li:hover{
+	color: #4a535f;
+	font-size: 16px;
+}
+#pageCur{
+	color: #5CA2A0;
+	font-size: 18px
+}
+
+
+
+
+#total{
+	float: right;
+	color: silver;
+	font-size: 13px;
+	margin-right: 35px;
+}
+
+
+
+
+/*Responsive*/
+.sh{
+	display: none;
+}
+
+
+.beColor{
+	color: #FFDA44;
+}

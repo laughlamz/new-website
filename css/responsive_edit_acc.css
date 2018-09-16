@@ -1,0 +1,46 @@
+
+@media screen and (max-width: 768px){
+	#Edit{
+		height: 490px;
+		font-size: 13px;
+	}
+
+	#editRow1A{
+		height: 40px;
+	}
+	#eRow1A{
+		font-size: 16px;
+		padding-top: 10px;
+		padding-left: 15px;
+	}
+	#editRow1B{
+		margin-top: 15px;
+	}
+	.eRow11{
+		margin-left: 20px;
+	}
+
+	.inEditUPE{
+		width: 85%;
+		padding-left: 15px;
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
+	#editRow1F{
+		margin-top: 5px;
+	}
+
+	#editRowCB{
+		margin-left: 20px;
+	}
+
+	#editRow1G{
+		height: 40px;
+	}
+	#btnEdit{
+		width: 100px;
+		height: 100%;
+		padding-top: 10px;
+	}
+
+}

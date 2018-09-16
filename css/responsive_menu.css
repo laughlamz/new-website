@@ -1,0 +1,55 @@
+
+@media screen and (max-width: 768px){
+	#fiMenu{
+		display:none;
+	}
+
+
+	.link, .navFather{
+		padding-left: 18px;
+	}
+	.link.liDash{
+		padding-left: 2px;
+		font-weight: 100;
+	}
+	
+
+	.txtDashMenu{
+		padding-left: 10px;
+	}
+
+	.txtshMenu{
+		display: block;
+		font-size: 13px;
+	}
+	.txtloMenu{
+		display: none;
+	}
+
+
+	.txtMenu{
+		display: none;
+	}
+	#ilogo{
+		display: none;
+	}
+	#ilogo1{
+		display: block;
+		border-bottom: 0.2px solid silver;
+	}
+	#bgMenu{
+		background-image: url(../img/imenu1.png);
+		width: 50px;
+	}
+
+
+
+	#scrollMenu{
+		height: calc(100vh - 50px);
+	}
+	#scrollMenu::-webkit-scrollbar{
+		width: 5px;
+		border: 0px;
+	}
+
+}

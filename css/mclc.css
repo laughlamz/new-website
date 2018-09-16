@@ -1,0 +1,28 @@
+.blockTypeML{
+	margin-bottom: 12px;
+}
+
+.typeML{
+	font-weight: 700;
+	/*color: #b30000;*/
+	color: white;
+	background-color: #009999;
+	border-radius: 3px;
+	padding: 3px;
+	padding-left: 6px;
+	/*border-bottom: 1px solid #ccccb3;*/
+	margin-bottom: 6px;
+}
+
+.titML{
+	color: #0033cc;
+	text-decoration: none;
+}
+.titML:visit, .titML:active{
+	color: #0033cc;
+	text-decoration: none;
+}
+.titML:hover{
+	color: #333399;
+	border-bottom: 1px solid gray;
+}

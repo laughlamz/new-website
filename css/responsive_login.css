@@ -1,0 +1,20 @@
+
+@media screen and (max-width: 768px){
+	#backgroundMobile{
+		display: inline;
+	}
+	#backgroundFull{
+		display: none;
+	}
+	#login{
+		width: 350px;
+		height: 500px;
+	}
+	#loginbtn{
+		margin-top: 10px;
+	}
+	.tkmk{
+		width: 85%;
+		padding: 13px;
+	}
+}

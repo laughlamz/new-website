@@ -1,0 +1,216 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+html, body {
+	font-family: "PT Sans Caption", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	color: #333;
+	line-height: 1.254; /* Chiều cao mỗi dòng văn bản */
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+
+#test{
+	color:green;
+	clear:left;
+}
+
+
+#wrapper{
+	width: 100%;
+	height: auto !important;
+	min-height: 100%;
+	background-color: gray;
+}
+
+
+#topbar{
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	z-index: 1;
+	background-color: rgb(233,30,99);
+}
+#leftbar{
+	width: 240px;
+	height: 110px;			
+	position: fixed;
+	z-index: 999;
+	background-image: linear-gradient(45deg,#360033,#0b8793);
+	background-image: url(../img/logo.png);
+}
+#leftbar1{
+	width: 200px;
+	height: 50px;
+	position: fixed;
+	z-index: 3;
+	left:240px;
+	background-color: rgb(233,30,99);
+}
+#rightbar{
+	width: 185px;
+	height: 50px;
+	position: fixed;
+	z-index: 2;
+	right:0;
+	background-color: #f29;
+}
+
+
+#leftmenu{
+	width: 240px;
+	height: 100%;
+	position: fixed;
+	float:left;
+	/*background-color: white;*/
+	/*background-image: linear-gradient(45deg,#9b3cb7,#ff396f);*/
+	background-image: linear-gradient(45deg,#360033,#0b8793);
+	/*background-image: linear-gradient(45deg,#9b3cb7,#ff396f);*/
+    /*background-image: linear-gradient(45deg,#1a2a6c,#b21f1f);*/
+    /*background-image: linear-gradient(45deg,#ee0979,#ff6a00);*/
+    /*background-image: linear-gradient(45deg,#33001b,#ff0084);*/
+    /*background-image: linear-gradient(45deg,#780206,#061161);*/
+    /*background-image: linear-gradient(45deg,#cc2b5e,#753a88);*/
+    background-repeat: repeat-x;
+    z-index: 1;
+    box-shadow: 2px 10px 30px 0 rgba(0,0,0,.42), 0 4px 25px 0 rgba(0,0,0,.12), 0 8px 10px -5px rgba(0,0,0,.2);
+}
+
+
+#contentpage{
+	width: 100%;
+	padding-left: 240px;
+	padding-top: 50px;
+	background-color: rgb(42,50,60);
+	height: auto !important;
+	min-height: 100%;
+}
+/*#content1{
+	width: 100%;
+	height: 150px;
+	margin-top:1.37%;
+}
+.col4{
+	width: 23.2875%;
+	height: 100%;
+	background-color: rgb(50,60,72);
+	float: left;
+	margin-left: 0.685%;
+	margin-right: 0.685%;
+	display: inline-block;
+}
+#col41{
+	margin-left:1.37%;
+}
+#col44{
+	margin-right:1.37%;
+}
+
+
+#content2{
+	width: 100%;
+	height: 420px;
+	margin-top:1.37%;
+}
+.col3{
+	width: 31.50666666666667%;
+	height: 100%;
+	background-color: rgb(50,60,72);
+	float: left;
+	margin-left: 0.685%;
+	margin-right: 0.685%;
+	display: inline-block;
+}
+#col31{
+	margin-left:1.37%;
+}
+#col33{
+	margin-right:1.37%;
+}*/
+
+#contentfoot{
+	width: 100%;
+	height: 60px;
+	margin-top: 1.37%;
+	/*clear:both;*/
+}
+.footer{
+	width: 100%;
+	height: 100%;
+	color: gray;
+	background-color: rgb(50,60,72);
+	bottom: 0;
+	float: right;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: 1.37%;
+}
+
+/*#logo{
+	width: 240px;
+	height: 140px;
+}*/
+#taikhoan{
+	width: 240px;
+	height: 50px;
+	background-color: white;
+	float: right;
+}
+
+
+#infoCurPage{
+	width: 100%;
+	height: 100%;
+	padding-top: 12px;
+	padding-left: 28px;
+	font-size: 23px;
+	color: white;
+	text-shadow: 2px 1px 5px gray;
+}
+
+#leftNav{
+	width: 35px;
+	height: 35px;
+	margin-top: 5px;
+	padding: 6px 0px 0px 0px;
+	font-size: 20px;
+	font-stretch: 100%;
+	font-weight: 400;
+	line-height: 25px;
+	text-shadow: 0px 0px 0px gray;
+	text-align: center;
+	background-color: #E86875;
+	cursor: pointer;
+	display: none;
+	transition: all 1s;
+	float: left;
+}
+#leftNav:active{
+	background-color: #f17986;
+}
+
+#txtCurPage{
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.clear{
+	clear: both;
+}

@@ -1,0 +1,41 @@
+
+@media screen and (max-width: 768px){
+	#layUpSQL{
+		width: 92%;
+		margin-right: 4%;
+		margin-left: 4%;
+		margin-top: 5%;
+	}
+	.filtName, .filtName1{
+		width: 100%;
+		float: left;
+		padding-left: 25px;
+		text-align: left;
+	}
+	.filtInput, .filtInput1{
+		width: 90%;
+		margin-left: 25px;
+	}
+
+
+	#filtBtnShow{
+		display: none;
+	}
+	#btnShow, #btnShow1{
+		margin-left: 25px;
+	}
+
+
+	.Select{
+		margin-left: 25px;
+	}
+
+}
+
+
+@media screen and (max-width: 480px){
+	.filtInput, .filtInput1{
+		width: 86%;
+		margin-left: 25px;
+	}
+}

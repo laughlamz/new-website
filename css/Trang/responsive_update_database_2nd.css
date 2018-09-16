@@ -1,0 +1,10 @@
+
+@media screen and (max-width: 768px){
+	.sh{
+		display: table-cell;
+	}
+
+	.lo{
+		display: none;
+	}
+}

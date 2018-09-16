@@ -1,0 +1,16 @@
+#title{
+	font-size: 16px;
+	font-weight: 700;
+	color: #b30000;
+	border-bottom: 1px solid #ebebe0;
+}
+#time{
+	font-size: 12px;
+	font-weight: 500;
+	color: gray;
+	margin-top: 6px;
+}
+#content{
+	font-size: 14px;
+	margin-top: 12px;
+}

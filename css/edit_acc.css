@@ -1,0 +1,119 @@
+#layoutEdit{
+	width: 100%;
+}
+
+#Edit{
+	width: 100%;	
+	background-color: rgb(50,60,72);
+	display: inline-block;
+	color: white;
+	border-radius: 5px;
+}
+
+
+#editRow1A{
+	width: 100%;
+	height: 60px;
+	border-bottom: 0.1px solid gray;
+}
+#eRow1A{
+	width: 100%;
+	height: 100%;
+	font-size: 18px;
+	padding-top: 19px;
+	padding-left: 25px;
+}
+#eRow1A b{
+	padding-left: 20px;
+}
+
+
+.eRow1{
+	width: 100%;
+	height: 70px;
+	margin-top: 10px;
+}
+.eRow11{
+	width: 100%;
+	height: 100%;
+	float: left;	
+	margin-left: 25px;
+}
+#editRow1B{
+	margin-top: 20px;
+}
+
+
+
+.EditUPE{
+	font-size: 13px;
+}
+.inEditUPE{
+	width: 92%;
+	padding: 12px;
+	padding-left:25px;
+	padding-right:20px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	border-radius: 3px;
+	border: 0.3px solid gray;
+	background-color: #2a323c;
+	color: white;
+}
+.inEditUPE:hover{
+	border: 0.1px solid white;
+	transition: all 0.5s;
+}
+
+
+#editRow1F{
+	width: 100%;
+	height: 20px;
+	margin-top: 10px;
+	color: #26a69a;
+}
+#eRow1F{
+	width: 100%;
+	height: 100%;
+	padding-left: 25px;
+}
+
+
+#editRow1G{
+	width: 100%;
+	height: 50px;
+	margin-top: 10px;
+	color: red;
+}
+#btnEdit{
+	float: right;
+	width: 120px;
+	height: 100%;
+	color: white;
+	border-radius: 6px;
+	background-color: #3ac9d6;
+	border: 1px solid #3ac9d6;
+	margin-right: 2.5%;
+	margin-bottom: 20px;
+	text-align: center;
+	padding-top: 15px;
+	cursor: pointer;
+}
+#btnEdit:hover{
+	background-color: #2bc6d4;
+	border-color: #2bc6d4;
+}
+
+
+
+#editRowCB{
+	width: 100%;
+	height: 30px;
+	margin-top: 10px;
+	margin-left: 25px;
+}
+.eCBox{
+	height: 100%;
+	float: left;
+	margin-right: 2.5%;
+}

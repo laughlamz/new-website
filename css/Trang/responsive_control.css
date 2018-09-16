@@ -1,0 +1,35 @@
+
+@media screen and (max-width: 768px){
+	#contentD1{
+		margin-top: 0px;
+	}
+	.class_col_D1{
+		width: 92%;
+		margin-left: 4%;
+		margin-right: 4%;
+		margin-top: 5%;
+	}
+	#col_D1_1{
+		margin-left: 4%;
+	}
+	#col_D1_3{
+		margin-right: 4%;
+	}
+
+	#contentD2{
+		margin-top: 0px;
+	}
+	.class_col_D2{
+		width: 92%;
+		margin-left: 4%;
+		margin-right: 4%;
+		margin-top: 5%;
+	}
+
+	#upMessage{
+		width: 75%;
+	}
+	#btnUpMessage{
+		width: 25%;
+	}
+}

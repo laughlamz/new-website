@@ -1,0 +1,301 @@
+.highcharts-yaxis-grid .highcharts-grid-line {
+	display: none;
+}
+
+
+
+
+#content1x{
+	width: 100%;
+	height: 194px;
+	margin-top: 1.37%;
+	font-family: 'PT Sans Caption', sans-serif;
+}
+#col11x{
+	width: 97.26%;
+	height: 100%;
+	background-color: rgb(50,60,72);
+	float: left;
+	display: inline-block;
+	margin-left: 1.37%;
+	margin-right: 1.37%;
+}
+.col11x{
+	width: 20%;
+	height: 100%;
+	float: left;
+	border-left: 0.2px solid rgb(51,51,51);
+}
+#col11x-1{
+	border-left: 0px;
+}
+
+
+
+
+
+#content1{
+	width: 100%;
+	height: 320px;
+	margin-top:1.37%;
+	font-family: 'PT Sans Caption', sans-serif;
+}
+#col11{
+	width: 60%;
+	height: 100%;
+	background-color: rgb(50,60,72);
+	float: left;
+	display: inline-block;
+	margin-left: 1.37%;
+	margin-right: 1.37%;
+}
+#col12{
+	width: 35.89%;
+	height: 100%;
+	background-color: rgb(50,60,72);
+	float: left;
+	display: inline-block;
+	margin-left: 1.37%;
+}
+
+
+#content2{
+	width: 100%;
+	height: 380px;
+	margin-top:1.37%;
+}
+#col21{
+	width: 47.945%;
+	height: 100%;
+	background-color: rgb(50,60,72);
+	float: left;
+	display: inline-block;
+	margin-left: 1.37%;
+	margin-right: 0.685%;
+}
+#col22{
+	width: 47.945%;
+	height: 100%;
+	background-color: rgb(50,60,72);
+	float: left;
+	display: inline-block;
+	margin-left: 0.685%;
+	margin-right: 1.37%;
+}
+
+
+#content3{
+	width: 100%;
+	height: 380px;
+	margin-top:1.37%;
+}
+#col31{
+	width: 97.26%;
+	height: 100%;
+	background-color: rgb(50,60,72);
+	float: left;
+	display: inline-block;
+	margin-left: 1.37%;
+	margin-right: 1.37%;
+}
+
+
+
+#myChart1{
+	width: 100%;
+	height: 70%;
+}
+#myChart21, #myChart22{
+	width: 100%;
+	height: 260px;
+	margin-top: 10px;
+}
+#nameChart11, #nameChart21, #nameChart22{
+	color: white;
+	font-family: 'PT Sans Caption', sans-serif;
+	font-size: 17px;
+	font-weight: 700;
+	padding: 25px;
+	padding-top: 20px;
+	padding-bottom: 0px;
+}
+#nameChart11{
+	padding-bottom: 20px;
+}
+#nameMinMax{
+	width: 100%;
+	height: 45px;
+	color: white;
+	font-family: 'PT Sans Caption', sans-serif;
+	font-size: 17px;
+	font-weight: 700;
+	padding: 25px;
+	padding-top: 20px;
+	padding-bottom: 0px;
+}
+
+
+
+
+
+#infoSen1{
+	width: 100%;
+	height: 60px;
+	padding-top: 13px;
+	padding-right: 30px;
+}
+
+.infoSen12{
+	color: gray;
+	text-align: center;
+	font-size: 13px;
+	width: 25%;
+	float: right;
+}
+.infoSen13{
+	font-family: 'PT Sans Caption', sans-serif;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+
+#infoSen2{
+	width: 100%;
+	height: 60px;
+	padding-top: 13px;
+	padding-right: 30px;
+}
+
+.infoSen22{
+	color: gray;
+	text-align: center;
+	font-size: 13px;
+	width: 25%;
+	float: right;
+}
+.infoSen23{
+	font-family: 'PT Sans Caption', sans-serif;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+
+
+
+#myMinMax{
+	width: 100%;
+	height: 235px;
+	font-size: 14px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 20px;
+}
+#myMinMaxtb{
+	width: 100%;
+	height: 100%;
+}
+#myMinMaxtb td:first-of-type{
+	padding-left: 10px;
+}
+#myMinMaxtb tr{
+	color: white;
+}
+#myMinMaxtb tr:hover{
+	background-color: #3e4855;
+}
+#myMinMaxtb tr:first-of-type:hover{
+	background-color: rgb(50,60,72);
+}
+
+.timeMinMax{
+	font-size: 11px;
+	color: gray;
+}
+
+
+
+
+
+
+/*
+up-down20: 40
+2center20: 40
+1st: 15:			
+2nd: 64:			
+3rd: 35
+*/
+.col11x-Name{
+	width: 100%;
+	height: 15px;
+	font-weight: 500;
+	margin-top: 20px;
+	text-align: center;	
+}
+.col11x-Icon{
+	width: 64px;
+	height: 64px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
+}
+.col11x-Value{
+	width: 100%;
+	height: 35px;
+	margin-top: 20px;
+	font-size: 35px;
+	text-align: center;
+}
+
+
+
+
+#col11x-1-Icon{
+	background-image: url(/img/realtime1.png);
+	background-repeat: no-repeat;
+}
+#col11x-2-Icon{
+	background-image: url(/img/realtime2.png);
+	background-repeat: no-repeat;
+}
+#col11x-3-Icon{
+	background-image: url(/img/realtime3.png);
+	background-repeat: no-repeat;
+}
+#col11x-4-Icon{
+	background-image: url(/img/realtime45.png);
+	background-repeat: no-repeat;
+}
+#col11x-5-Icon{
+	background-image: url(/img/realtime45.png);
+	background-repeat: no-repeat;
+}
+
+
+.col11x-VaLa{
+	line-height: 35px;
+	display: inline-block;
+}
+.col11x-DV{
+	font-size: 13px;
+	display: inline-block;
+}
+
+
+
+#col11x-1{
+	color: #3B93FF;
+}
+#col11x-2{
+	color: #87B8F5;
+}
+#col11x-3{
+	color: #F79239;
+}
+#col11x-4, #col11x-5{
+	color: #F04646;
+}

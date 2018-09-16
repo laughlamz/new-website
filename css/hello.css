@@ -1,0 +1,118 @@
+#infoAcc{
+	width: 135px;
+	height: 50px;
+	float: left;
+	background-color: rgb(233, 30, 99);
+}
+
+
+#statusConn{
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	font-size: 13px;
+	float: right;
+	padding-right: 15px;
+	padding-top: 11px;
+}
+#iConn{
+	float: left;
+	padding-left: 15px;
+}
+#moreinfo{
+	padding-top: 5px;
+	padding-left: 10px;
+	float: left;
+}
+
+
+
+#thoat{
+	width: 50px;
+	float: left;
+	background-color: rgb(233, 30, 99);
+}
+#profile{
+	width: 50px;
+	height: 50px;
+	padding: 7px;
+	float: left;
+	cursor: pointer;
+}
+#picUser{
+	width: 36px;
+	height: 36px;
+	border: 2px solid white;
+	border-radius: 50%;
+}
+.CLASSmorepf{
+	display: none;
+}
+.CLASSmorepf.responsive{
+	width: 160px;
+	height: 160px;
+	display: block;
+	float: right;
+	padding: 0px;
+	margin-top: 0px;
+	list-style-type: none;
+	background-color: #4c4c4c;
+	border-bottom-left-radius: 3.9px;
+	border-bottom-right-radius: 3.9px;
+	font-size: 14px;
+}
+.CLASSprofile.responsive{
+	background-color: #E86875;
+}
+
+
+
+
+
+.profileAcc{
+	display: block;
+	width: 160px;
+	height: 35px;
+	padding-top: 8.5px;
+	padding-bottom: 8.5px;
+	padding-left: 22px;
+}
+
+#xinchao{
+	height: 50px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 0px;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	background-color: gray;
+}
+#VbtnStyle{
+	cursor: pointer;
+	color: white;
+}
+#setAcc:link, #setAcc:visited{
+	/*background-color: black;*/
+	text-decoration: none;
+	color: white;
+}
+#lineAcc{
+	border: 0.5px solid gray;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	padding-left: 0px;
+}
+#btnThoat{
+	background-color: #4c4c4c;
+	border: 0px;
+	color: white;
+	height: 35px;
+	text-align: left;
+	border-bottom-left-radius: 3.9px;
+	border-bottom-right-radius: 3.9px;
+}
+/*
+#VbtnStyle:hover, #setAcc:hover, #btnThoat:hover{
+	background-color: #4c4c4c;
+}*/

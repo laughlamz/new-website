@@ -1,0 +1,28 @@
+
+@media screen and (max-width: 768px){
+	#shTime{
+		display: table-cell;
+	}
+	#shiTemp{
+		display: inline;
+	}
+	#shTemp{
+		display: inline;
+	}
+	#shHumi{
+		display: inline;
+	}
+
+	#loTime{
+		display: none;
+	}
+	#loiTemp{
+		display: none;
+	}
+	#loTemp{
+		display: none;
+	}
+	#loHumi{
+		display: none;
+	}
+}

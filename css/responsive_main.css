@@ -1,0 +1,87 @@
+
+@media screen and (max-width: 768px){
+	#leftbar{
+		width: 50px;
+		height: 50px;
+		background-image: url(../img/iTop3.png);
+		background-repeat: no-repeat;
+		background-color: white;
+	}
+	#leftbar1{
+		left: 50px;
+	}
+	#leftmenu{
+		width: 50px;
+	}
+	#contentpage{
+		padding-left: 50px;
+	}
+	.footer{
+		clear: both;
+		margin-top: 5%;
+		font-size: 14px;
+	}
+}
+
+
+
+@media screen and (max-width: 480px){
+	#leftbar{
+		width: 50px;
+		height: 50px;
+		background-image: url(../img/iTop3.png);
+		background-repeat: no-repeat;
+		/*background-image: linear-gradient(45deg,#360033,#0b8793);*/
+	}
+	#leftbar1{
+		width: 150px;
+		left: 50px;
+	}
+/*	#leftmenu{
+		display: none;
+	}*/
+	#rightbar{
+		width: 100px;
+	}
+	#contentpage{
+		padding-left: 0px;
+	}
+	.footer{
+		clear: both;
+	}
+	#infoCurPage{
+		padding-top: 2px;
+		padding-bottom: 2px;
+		padding-left: 10px;
+		font-size: 12px;
+	}
+	#txtCurPage{
+		float: left;
+		font-size: 18px;
+		margin-top: 11px;
+		margin-left: 10px;
+	}
+	.CLASSleftmenu{
+		display: none;
+	}
+	.CLASScontentpage{
+		padding-left: 0px;
+	}
+}
+
+
+
+@media screen and (max-width: 480px){
+	#leftnav{
+		display: block;
+	}
+  /*.topnav a:not(:first-child) {display: none;}*/
+  .CLASSleftmenu.responsive {
+  	position: absolute;
+  	display: block;
+  	z-index: 1;
+  }
+/*  .CLASScontentpage.responsive {
+  	padding-left: 50px;
+  }*/
+}

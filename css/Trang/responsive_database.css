@@ -1,0 +1,17 @@
+
+@media screen and (max-width: 768px){
+	.sh{ display: table-cell; }
+	.lo{ display: none; }
+	#col21{
+		height: 480px;
+	}
+
+
+	#pageSQL{
+		margin-top: 15px;
+	}
+	
+	#moreSet{
+		padding-right: 20px;
+	}
+}

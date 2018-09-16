@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>404 Not found</title>
+	<link rel="stylesheet" text="text/css" href="/css/normalize.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<style>
+		html, body {
+			font-family: 'Roboto', sans-serif;
+			width: 100%;
+			height: 100%;
+		}
+		.container {
+			width: 100%;
+			height: 100%;
+			position: relative;
+			z-index: 1;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		img {
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			top: 0;
+			left: 0;
+			background-attachment: fixed;    /* this keeps the background in place */
+			background-position: center;
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+		h3, h5 {
+			color: white;
+		}
+	</style>
+</head>
+<body>
+	<img src="img/403bg.png"/>
+	<div class="container">
+		<div">
+			<h3>404</h3>
+			<h5>File not found, please check your url</h5>			
+		</div>
+	</div>
+</body>
+</html>
