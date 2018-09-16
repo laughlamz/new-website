@@ -85,16 +85,7 @@
 			<div id="scaleS6">
 				<div id="cenS6">
 					<div id="nameS6">Life with a little ART</div>
-					<div id="curEdgeImg1">
-						<div id="pr">&#10094;</div>
-						<div id="ne">&#10095;</div>
-						<img id="curImg" src="img/img/1.jpg"/>
-					</div>
-					<div id="curEdgeImg2">
-						<div class="dot" p="1"></div>
-						<div class="dot" p="2"></div>
-						<div class="dot" p="3"></div>
-					</div>
+
 				</div>
 			</div>
 		</div>
